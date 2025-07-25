@@ -1,4 +1,4 @@
-# uber_fares
+# Uber-Fare-Data-Insights
 
 ---
 
