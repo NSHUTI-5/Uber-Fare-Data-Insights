@@ -27,7 +27,28 @@ uber_df=pd.read_csv('/content/drive/MyDrive/archive/uber.csv',low_memory=False)
 - Correlations: fare vs. distance, time of day, etc.
 
 📸 _Sample EDA Charts_  
+```python
+print(uber_df['fare_amount'].mean())
+print(uber_df['fare_amount'].median())
+print(uber_df['fare_amount'].mode())
+print(uber_df['fare_amount'].std())
+print(uber_df['fare_amount'].quantile([0.25, 0.5, 0.75]))
+
+# Outlier check
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.boxplot(uber_df['fare_amount'])
+plt.show()
+```
 <img width="1533" height="622" alt="image" src="https://github.com/user-attachments/assets/7428e1d5-c51f-4141-ae0d-2f1f2038f7fa" />
+```python
+plt.hist(uber_df['fare_amount'], bins=50)
+plt.title('Fare Amount Distribution')
+plt.xlabel('Fare')
+plt.ylabel('Frequency')
+plt.show()
+```
 <img width="1543" height="454" alt="image" src="https://github.com/user-attachments/assets/80f732eb-59d4-4c7a-8500-ac5a32454570" />
 
 ---
@@ -38,6 +59,20 @@ uber_df=pd.read_csv('/content/drive/MyDrive/archive/uber.csv',low_memory=False)
 - Encoded categorical variables
 
 📸 _Feature Creation Code & Output_  
+```python
+uber_df['pickup_datetime'] = pd.to_datetime(uber_df['pickup_datetime'])
+uber_df['hour'] = uber_df['pickup_datetime'].dt.hour
+uber_df['day'] = uber_df['pickup_datetime'].dt.day
+uber_df['month'] = uber_df['pickup_datetime'].dt.month
+uber_df['day_of_week'] = uber_df['pickup_datetime'].dt.day_name()
+# Make sure the column is in datetime format
+uber_df['pickup_datetime'] = pd.to_datetime(uber_df['pickup_datetime'])
+
+# Extract hour, day, and month
+uber_df['hour'] = uber_df['pickup_datetime'].dt.hour
+uber_df['day'] = uber_df['pickup_datetime'].dt.day
+uber_df['month'] = uber_df['pickup_datetime'].dt.month
+```
 <img width="1530" height="173" alt="image" src="https://github.com/user-attachments/assets/59382327-bc30-45fd-99db-2ce8b94529f5" />
 
 ---
