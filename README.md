@@ -112,7 +112,6 @@ uber_df['month'] = uber_df['pickup_datetime'].dt.month
 
 Choose one:
 - ✅ [ ] GitHub Markdown Report (`report/Uber_Fares_Report.md`)
-- ✅ [ ] PowerPoint Presentation (`report/Uber_Fares_Report.pptx`)
 
 Includes:
 - Dataset Summary  
@@ -127,7 +126,6 @@ Includes:
 
 - [x] `.pbix` Dashboard uploaded
 - [x] Cleaned `.csv` files included
-- [x] Screenshots folder created
 - [x] Final report (MD)
 - [x] GitHub repo publicly accessible
 - [x] Email with link sent before deadline
