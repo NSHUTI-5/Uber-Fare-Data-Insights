@@ -11,6 +11,12 @@
 - **📤 Exported CSV** for Power BI usage
 
 📸 _Screenshot of Data Loading in Python_  
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+import pandas as pd
+uber_df=pd.read_csv('/content/drive/MyDrive/archive/uber.csv',low_memory=False)
+```
 <img width="756" height="255" alt="image" src="https://github.com/user-attachments/assets/8110338b-a8c6-452e-b3da-a323f6e5f800" />
 
 ---
@@ -90,28 +96,5 @@ Includes:
 - [x] Final report (MD)
 - [x] GitHub repo publicly accessible
 - [x] Email with link sent before deadline
-
----
-
----
-
-## 💡 Tips for Success
-
-- Begin early to allow time for refinement  
-- Use clear and meaningful visualizations  
-- Make your dashboard **tell a story**  
-- Include screenshots to document your full process  
-- Use consistent design principles and formatting
-
----
-
-## 📷 Screenshots Preview
-
-> _Add these images under `/screenshots` folder and reference them above_  
-- `loading_data.png`  
-- `data_cleaning.png`  
-- `feature_engineering.png`  
-- `dashboard_design.png`  
-- `final_dashboard.png`  
 
 ---
