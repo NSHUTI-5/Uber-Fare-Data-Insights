@@ -21,7 +21,8 @@
 - Correlations: fare vs. distance, time of day, etc.
 
 📸 _Sample EDA Charts_  
-*Insert image here*
+<img width="1533" height="622" alt="image" src="https://github.com/user-attachments/assets/7428e1d5-c51f-4141-ae0d-2f1f2038f7fa" />
+<img width="1543" height="454" alt="image" src="https://github.com/user-attachments/assets/80f732eb-59d4-4c7a-8500-ac5a32454570" />
 
 ---
 
@@ -31,7 +32,7 @@
 - Encoded categorical variables
 
 📸 _Feature Creation Code & Output_  
-*Insert image here*
+<img width="1530" height="173" alt="image" src="https://github.com/user-attachments/assets/59382327-bc30-45fd-99db-2ce8b94529f5" />
 
 ---
 
@@ -43,8 +44,6 @@
   - Ride duration comparisons
 
 📸 _Power BI Visualizations_  
-*Insert image here*
-
 ---
 
 ### 5. Dashboard Design
@@ -54,7 +53,8 @@
   - Map for ride locations (if coordinates available)
 
 📸 _Final Dashboard Screenshot_  
-*Insert image here*
+<img width="991" height="583" alt="image" src="https://github.com/user-attachments/assets/1ae73253-d885-43e7-b795-ecd13c3dc3d1" />
+<img width="940" height="569" alt="image" src="https://github.com/user-attachments/assets/71a836ed-c28b-4e36-b5b1-bb04f02681ea" />
 
 ---
 
@@ -87,15 +87,11 @@ Includes:
 - [x] `.pbix` Dashboard uploaded
 - [x] Cleaned `.csv` files included
 - [x] Screenshots folder created
-- [x] Final report (MD or PPTX)
+- [x] Final report (MD)
 - [x] GitHub repo publicly accessible
 - [x] Email with link sent before deadline
 
 ---
-
-## ⚠️ Academic Integrity Notice
-
-> This project is **individual or group work**. While collaboration is encouraged, originality is essential. Submissions with **plagiarized content** or copied dashboards will result in **grade penalties**. Ensure your work includes **unique analytical approaches**.
 
 ---
 
@@ -119,11 +115,3 @@ Includes:
 - `final_dashboard.png`  
 
 ---
-
-## 🏁 Good Luck!
-
-We look forward to your **insightful dashboards and thoughtful analysis**. Submit early and make your data story shine!  
-For questions, contact: **eric.maniraguha@auca.ac.rw**
-
----
-
