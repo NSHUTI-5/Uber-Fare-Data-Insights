@@ -1,3 +1,5 @@
+Names:Nshuti Dorothy
+ID: 27129
 # Uber-Fare-Data-Insights
 
 ---
@@ -127,7 +129,5 @@ Includes:
 - [x] `.pbix` Dashboard uploaded
 - [x] Cleaned `.csv` files included
 - [x] Final report (MD)
-- [x] GitHub repo publicly accessible
-- [x] Email with link sent before deadline
 
 ---
